@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/anjaligunjal128/EastVantage-DemoProjectt/precache-manifest.4c2bb5ad41c16902361439c5f164fc17.js"
+  "/anjaligunjal128/my-app/precache-manifest.28e667e92db0011579d1b6baeac240aa.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/anjaligunjal128/EastVantage-DemoProjectt/index.html", {
+workbox.routing.registerNavigationRoute("/anjaligunjal128/my-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
